@@ -1,0 +1,90 @@
+caption{
+	display: table-caption;
+}
+p{
+	margin-left: 20%;
+	margin-right: 25%;
+}
+table{
+	margin-left: 5%;
+	margin-top: 5%;
+	margin-bottom: 5%;
+	border: 1px solid black;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	border-collapse: collapse;
+	box-shadow:4px 4px 3px 0px;
+}
+td, th{
+	padding: 5px;
+	border: 1px solid black;
+}
+table caption{
+	font: 1em Georgia;
+}
+th{
+	background-color: #3A4D78;
+	font-family: "Courier New", Courier, monospace
+	font-weight: bold;
+	color: white;
+	font-size: 19px;
+}
+.th{
+  background-color: #3A4D78;
+	font-family: "Courier New", Courier, monospace
+	font-weight: bold;
+	color: white;
+	font-size: 19px;
+	text-align: center;
+}
+h2,h3{
+	margin-left: 20%;
+}
+h1{
+  margin-left:25%;
+}
+img{
+  margin-left:7%;
+   padding:1px;
+   border:1px solid #021a40;
+   background-color:#3A4D78;
+}
+tr:hover{
+	background: yellow;
+}
+tr:nth-child(even){
+	background-color: #eee;
+}
+tr:nth-child(even):hover{
+	background: yellow;
+}
+table.striping tr.diff td{
+	background-color: #cbc1be;
+}
+thumbnail:hover{
+      position:relative;
+    top:-25px;
+    left:-35px;
+    width:500px;
+    height:auto;
+    display:block;
+    z-index:999;
+}
+.trump{
+  background-color: blue;
+}
+#race_map{
+  margin-left: 20%;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+  width: 50%;
+  height: 50%;
+}
+#race_map:hover{
+  opacity: 0.7;
+  width: 80%;
+  height: 80%;
+  margin-left: 10%;
+}
